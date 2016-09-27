@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+"use strict";
+
+const Tilda = require("tilda")
+    , CliUpdate = require("cli-update")
+    , cliConfeti = require("..")
+    ;
+
+new Tilda(`${__dirname}/../package.json`).main(action => {
+    cliConfeti({}, function (err, c) {
+        if (err) throw err;
+        CliUpdate.render(c);
+    });
+});
