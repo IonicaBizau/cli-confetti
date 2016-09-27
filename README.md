@@ -25,9 +25,8 @@ Usage: cli-confeti [options]
 Confeti in your terminal.
 
 Options:
-  -f, --foo <foo>  Dummy argument
-  -v, --version    Displays version information.
-  -h, --help       Displays this help.
+  -v, --version  Displays version information.
+  -h, --help     Displays this help.
 
 Documentation can be found at https://github.com/IonicaBizau/cli-confeti#readme.
 ```
