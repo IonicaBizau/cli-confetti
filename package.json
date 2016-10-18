@@ -3,7 +3,7 @@
     "cli-confetti": "bin/cli-confetti"
   },
   "name": "cli-confetti",
-  "description": "confetti in your terminal.",
+  "description": "Confetti in your terminal.",
   "keywords": [
     "cli",
     "confetti",
