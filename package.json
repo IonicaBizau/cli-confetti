@@ -1,18 +1,18 @@
 {
   "bin": {
-    "cli-confeti": "bin/cli-confeti"
+    "cli-confetti": "bin/cli-confetti"
   },
-  "name": "cli-confeti",
-  "description": "Confeti in your terminal.",
+  "name": "cli-confetti",
+  "description": "confetti in your terminal.",
   "keywords": [
     "cli",
-    "confeti",
+    "confetti",
     "in",
     "your",
     "terminal"
   ],
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,12 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/cli-confeti.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/cli-confetti.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/cli-confeti/issues"
+    "url": "https://github.com/IonicaBizau/cli-confetti/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/cli-confeti#readme",
+  "homepage": "https://github.com/IonicaBizau/cli-confetti#readme",
   "dependencies": {
     "cli-snow": "^1.3.3",
     "cli-update": "^3.2.0",

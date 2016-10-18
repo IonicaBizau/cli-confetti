@@ -1,10 +1,10 @@
 "use strict";
 
-const cliConfeti = require("../lib")
+const cliConfetti = require("../lib")
     , CliUpdate = require("cli-update")
     ;
 
-cliConfeti({}, function (err, c) {
+cliConfetti({}, function (err, c) {
     if (err) throw err;
     CliUpdate.render(c);
 });
