@@ -12,7 +12,7 @@
     "terminal"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -44,5 +44,8 @@
     "couleurs": "^6.0.3",
     "flat-colors": "^3.3.3",
     "tilda": "^4.3.1"
+  },
+  "blah": {
+    "ex_img": "http://i.imgur.com/cXWVC9b.gif"
   }
 }
