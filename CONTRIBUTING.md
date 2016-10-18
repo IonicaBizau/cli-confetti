@@ -61,6 +61,6 @@ Thanks! :sweat_smile:
 
 
 
-[1]: https://github.com/IonicaBizau/cli-confeti/issues
+[1]: https://github.com/IonicaBizau/cli-confetti/issues
 
 [2]: https://github.com/IonicaBizau/code-style

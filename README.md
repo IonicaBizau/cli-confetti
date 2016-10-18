@@ -1,11 +1,11 @@
 
-# `$ cli-confeti`
+# `$ cli-confetti`
 
- [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][patreon] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/cli-confeti.svg)](https://www.npmjs.com/package/cli-confeti) [![Downloads](https://img.shields.io/npm/dt/cli-confeti.svg)](https://www.npmjs.com/package/cli-confeti) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][patreon] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/cli-confetti.svg)](https://www.npmjs.com/package/cli-confetti) [![Downloads](https://img.shields.io/npm/dt/cli-confetti.svg)](https://www.npmjs.com/package/cli-confetti) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-> Confeti in your terminal.
+> confetti in your terminal.
 
-[![cli-confeti](http://i.imgur.com/cXWVC9b.gif)](#)
+[![cli-confetti](http://i.imgur.com/cXWVC9b.gif)](#)
 
 ## :cloud: Installation
 
@@ -13,24 +13,24 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g cli-confeti
+$ npm i -g cli-confetti
 ```
 
 
-Then, run `cli-confeti --help` and see what the CLI tool can do.
+Then, run `cli-confetti --help` and see what the CLI tool can do.
 
 
 ```
-$ cli-confeti --help
-Usage: cli-confeti [options]
+$ cli-confetti --help
+Usage: cli-confetti [options]
 
-Confeti in your terminal.
+confetti in your terminal.
 
 Options:
   -v, --version  Displays version information.
   -h, --help     Displays this help.
 
-Documentation can be found at https://github.com/IonicaBizau/cli-confeti#readme.
+Documentation can be found at https://github.com/IonicaBizau/cli-confetti#readme.
 ```
 
 ## :clipboard: Example
@@ -39,17 +39,17 @@ Documentation can be found at https://github.com/IonicaBizau/cli-confeti#readme.
 Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
 
 ```sh
-$ npm i --save cli-confeti
+$ npm i --save cli-confetti
 ```
 
 
 
 ```js
-const cliConfeti = require("cli-confeti")
+const cliConfetti = require("cli-confetti")
     , CliUpdate = require("cli-update")
     ;
 
-cliConfeti({}, function (err, c) {
+cliConfetti({}, function (err, c) {
     if (err) throw err;
     CliUpdate.render(c);
 });
@@ -72,11 +72,6 @@ to [set up a recurring donation, via Patreon][patreon]. :rocket:
 
 Thanks! :heart:
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`nuvi`](https://github.com/IonicaBizau/nuvi#readme)—Happy birthday, Nuvi!
 
 ## :scroll: License
 
