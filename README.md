@@ -45,9 +45,14 @@ $ npm i --save cli-confeti
 
 
 ```js
-const cliConfeti = require("cli-confeti");
+const cliConfeti = require("cli-confeti")
+    , CliUpdate = require("cli-update")
+    ;
 
-console.log(cliConfeti());
+cliConfeti({}, function (err, c) {
+    if (err) throw err;
+    CliUpdate.render(c);
+});
 ```
 
 ## :memo: Documentation
