@@ -6,9 +6,37 @@ const Tilda = require("tilda")
     , cliConfetti = require("..")
     ;
 
-new Tilda(`${__dirname}/../package.json`).main(action => {
-    cliConfetti({}, function (err, c) {
+new Tilda(`${__dirname}/../package.json`, {
+    options: [
+        {
+            name: "duration",
+            opts: ["d", "duration"],
+            description: "Duration of the animation. Default: forever.",
+            default: -1,
+            type: Number
+        },
+        {
+            name: "chars",
+            opts: ["c", "chars"],
+            description: "Characters to use in the animation.",
+            type: Array
+        }
+    ],
+    examples: [
+        "cli-confetti -d 3 # Three second animation"
+      , "cli-confetti -c '<3' -c ':*' -c ':x' # Specify the characters to use "
+    ]
+}).main(action => {
+    const startTime = new Date()
+        , duration = action.options.duration.value
+
+    cliConfetti({
+        chars: action.options.chars.value
+    }, function (err, c) {
         if (err) throw err;
+        if (duration !== -1 && (new Date() - startTime) / 1000 > duration) {
+            return process.exit(0)
+        }
         CliUpdate.render(c);
     });
 });
