@@ -73,8 +73,14 @@ Usage: cli-confetti [options]
 Confetti in your terminal.
 
 Options:
-  -h, --help     Displays this help.
-  -v, --version  Displays version information.
+  -d, --duration <duration>  Duration of the animation. Default: forever.
+  -c, --chars <chars>        Characters to use in the animation.
+  -v, --version              Displays version information.
+  -h, --help                 Displays this help.
+
+Examples:
+  $ cli-confetti -d 3 # Three second animation
+  $ cli-confetti -c '<3' -c ':*' -c ':x' # Specify the characters to use
 
 Documentation can be found at https://github.com/IonicaBizau/cli-confetti#readme.
 ```
