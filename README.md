@@ -106,13 +106,12 @@ Here is an example how to use this package as library. To install it locally, as
 
 
 ```js
-const cliConfetti = require("cli-confetti")
-    , CliUpdate = require("cli-update")
-    ;
+import cliConfetti from "cli-confetti";
+import CliUpdate from "cli-update";
 
-cliConfetti({}, function (err, c) {
-    if (err) throw err;
-    CliUpdate.render(c);
+cliConfetti({}, function (error, confetti) {
+  if (error) throw error;
+  CliUpdate.render(confetti);
 });
 ```
 
