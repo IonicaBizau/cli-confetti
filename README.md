@@ -114,12 +114,31 @@ cliConfetti({}, function (err, c) {
     if (err) throw err;
     CliUpdate.render(c);
 });
+
+
+// ES6 Version
+// import cliConfetti from "cli-confetti";
+// import CliUpdate from "cli-update";
+//
+// cliConfetti({}, function (error, confetti) {
+//   if (error) throw error;
+//   CliUpdate.render(confetti);
+// });
 ```
 
 
 
 
 
+
+
+
+
+
+
+## :memo: Documentation
+
+For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 
 
@@ -138,14 +157,6 @@ There are few ways to get help:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
 
 
-
-
-
-
-
-## :memo: Documentation
-
-For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 
 
